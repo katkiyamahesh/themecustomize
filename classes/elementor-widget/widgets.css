@@ -1,0 +1,62 @@
+.hfe-nav-menu li{
+	padding: 15px;
+}
+.elementor-widget-container nav ul li button{
+	display: none;
+}
+
+nav.hfe-submenu-icon-arrow ul li.menu-item-has-children > a:after{
+	content: "\f107";
+	display: inline-block;
+	font-family: "FontAwesome";
+	font-weight: 800;
+	margin: 2px 2px;
+}
+nav.hfe-submenu-icon-plus ul li.menu-item-has-children > a:after{
+	content: "\2b";
+	display: inline-block;
+	font-family: "FontAwesome";
+	font-weight: 800;
+	margin: 2px 2px;
+}
+nav.hfe-submenu-icon-classic ul li.menu-item-has-children > a:after{
+	content: "\f0d7";
+	display: inline-block;
+	font-family: "FontAwesome";
+	font-weight: 800;
+	margin: 2px 2px;
+}
+.hfe-nav-menu__toggle.elementor-clickable{
+	visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+.hfe-nav-menu-icon{
+	display: flex;
+    width: 35px;
+}
+.hfe-nav-menu__align-left{
+	margin-right: auto;
+}
+
+.hfe-nav-menu__align-center{
+	margin: 0 auto;
+}
+.hfe-nav-menu__align-right{
+	margin-left: auto;
+}
+@media only screen and (max-width: 1024px){
+	.hfe-nav-menu__toggle.elementor-clickable.hfe-nav-menu__breakpoint-tablet{
+	    visibility: visible;
+	    opacity: 1;
+	    display: block;
+	}
+}
+@media only screen and (max-width: 767px){
+	.hfe-nav-menu__toggle.elementor-clickable.hfe-nav-menu__breakpoint-mobile{
+	    visibility: visible;
+	    opacity: 1;
+	    display: block;
+	}
+
+}

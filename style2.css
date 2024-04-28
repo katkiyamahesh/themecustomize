@@ -1,0 +1,30 @@
+/*
+Theme Name: Theme Customize
+Theme URI: http://wordpress.org/
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: Customize theme for wordpress developed by Developer 
+Version: 1.0
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: theme customize
+*/
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+ /*Base Typography */
+ 
+body {
+	font-family: -apple-system, blinkmacsystemfont, "segoe ui", roboto, "oxygen-sans", ubuntu, cantarell, "helvetica neue", helvetica, arial, sans-serif;
+	font-size: 1rem;
+	color: #51585f;
+	line-height: 1.8;
+    margin: 0;
+}
